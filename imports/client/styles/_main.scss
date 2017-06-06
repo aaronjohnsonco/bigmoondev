@@ -1,0 +1,54 @@
+/* VARIABLES */
+$primary_text: #222;
+
+$primary_color: #FE6329;
+
+$black: 'LatoBlack';
+$regular: 'LatoRegular';
+$light: 'LatoLight';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+input, button, select {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+.header {
+  color: $primary_color;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+@font-face {
+  font-family: 'LatoBlack';
+  src: url('/fonts/Lato-Black.ttf');
+}
+@font-face {
+  font-family: 'LatoRegular';
+  src: url('/fonts/Lato-Regular.ttf');
+}
+@font-face {
+  font-family: 'LatoLight';
+  src: url('/fonts/Lato-Light.ttf');
+}
+
+@import 'components/home';

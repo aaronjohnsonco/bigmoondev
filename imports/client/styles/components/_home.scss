@@ -1,0 +1,127 @@
+.home_hero_container {
+  background: url('/images/hands.png') center center;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.home_hero_container__img {
+  width: 300px;
+}
+.home_callout {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding:30px 0;
+}
+.home_callout__header {
+  font-family: $black;
+  text-align: center;
+  font-size: 4.5rem;
+  margin: 30px 0 30px 0;
+  color: $primary_text;
+}
+.home_callout__contact {
+  font-family: $light;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.home_callout__contact span {
+  margin:0 10px;
+}
+.home_callout__button {
+  padding: 14px 20px;
+  background-color: $primary_color;
+  border: 1px solid $primary_color;
+  color: #fff;
+  font-family: $regular;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.home_callout__button:focus {
+  outline: 0;
+}
+.form_header {
+  font-family: $light;
+  font-size: 3.3rem;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+.form_el {
+  margin: 0 0 10px 0;
+}
+.form_el input {
+  max-width: 450px;
+  width: 100vw;
+  padding: 1.3rem;
+  font-size: 1.8rem;
+  font-family: $regular;
+}
+.form_el input:focus {
+  outline: 0;
+  background:#fbfbfb;
+  border-style: solid;
+  border-color:#ddd;
+}
+.form_el textarea {
+  width: 450px;
+  padding: 1.3rem;
+  font-size: 1.8rem;
+  border-color: #ccc;
+  resize: none;
+  font-family: $regular;
+}
+.form_el textarea:focus {
+  outline: 0;
+  background:#fbfbfb;
+  border-style: solid;
+  border-color:#ddd;
+}
+.form_button {
+  padding: 14px 20px;
+  background-color: $primary_color;
+  border: 1px solid $primary_color;
+  color: #fff;
+  font-family: $regular;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.form_button:focus {
+  outline: 0;
+}
+
+.form_button_cancel {
+  padding: 14px 20px;
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  color: #555;
+  font-family: $regular;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin: 0 0 0 10px;
+}
+.form_button_cancel:focus {
+  outline: 0;
+}
+
+.footer_text_container {
+  border-top: 1px solid #eee;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer_text {
+  font-family: $light;
+  font-size: 1.4rem;
+  margin: 0;
+  color: #bbb;
+}
